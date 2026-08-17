@@ -77,7 +77,7 @@ export default function Contact() {
                 </a>
               ))}
               <a
-                href="public/Aman Resume.pdf"
+                href="AmanResume.pdf"
                 download
                 className="ml-2 inline-flex items-center gap-2 px-4 h-11 rounded-2xl bg-gradient-to-r from-accent-bright to-accent-dim text-bg font-semibold text-sm hover:shadow-xl hover:shadow-accent/40 hover:-translate-y-0.5 transition-all"
               >
