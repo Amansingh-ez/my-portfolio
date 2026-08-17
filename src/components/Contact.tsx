@@ -77,7 +77,7 @@ export default function Contact() {
                 </a>
               ))}
               <a
-                href="//Users/amansingh/Downloads/Aman_Singh_Frontend_Developer_Internship_Resume (1).pdf"
+                href="/Users/amansingh/Downloads/Aman Resume.pdf"
                 download
                 className="ml-2 inline-flex items-center gap-2 px-4 h-11 rounded-2xl bg-gradient-to-r from-accent-bright to-accent-dim text-bg font-semibold text-sm hover:shadow-xl hover:shadow-accent/40 hover:-translate-y-0.5 transition-all"
               >
