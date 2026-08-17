@@ -40,7 +40,7 @@ export default function Contact() {
 
             <div className="mt-8 space-y-4">
               <a
-                href="mailto:aman@example.com"
+                href="mailto:singhaman73537@gmail.com"
                 className="flex items-center gap-4 group"
               >
                 <span className="w-12 h-12 rounded-2xl glass flex items-center justify-center text-accent-bright group-hover:scale-110 transition-transform">
@@ -48,7 +48,7 @@ export default function Contact() {
                 </span>
                 <div>
                   <div className="text-xs uppercase tracking-wider text-muted">Email</div>
-                  <div className="text-white group-hover:text-accent-bright transition-colors">aman@example.com</div>
+                  <div className="text-white group-hover:text-accent-bright transition-colors">singhaman73537@gmail.com</div>
                 </div>
               </a>
               <div className="flex items-center gap-4">
@@ -77,7 +77,7 @@ export default function Contact() {
                 </a>
               ))}
               <a
-                href="/resume.pdf"
+                href="//Users/amansingh/Downloads/Aman_Singh_Frontend_Developer_Internship_Resume (1).pdf"
                 download
                 className="ml-2 inline-flex items-center gap-2 px-4 h-11 rounded-2xl bg-gradient-to-r from-accent-bright to-accent-dim text-bg font-semibold text-sm hover:shadow-xl hover:shadow-accent/40 hover:-translate-y-0.5 transition-all"
               >
