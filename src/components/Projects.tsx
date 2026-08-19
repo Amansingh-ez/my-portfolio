@@ -18,6 +18,8 @@ const PROJECTS = [
     tags: ['React', 'OpenWeather API', 'Tailwind'],
     accent: 'from-sky-500/20 to-cyan-500/10',
     status: 'Completed',
+    link: 'https://weather-dashboard-peach-seven.vercel.app/',   // 👈 live deployed URL
+  github: 'https://github.com/tumhara-Amansingh-ez/weather-dashboard', // 👈 repo URL
   },
   {
     title: 'Chloe — AI Voice Assistant',
@@ -106,15 +108,15 @@ export default function Projects() {
 
                 <div className="mt-6 flex items-center gap-4">
                   <a
-                    href="#"
+                    href={p.link}
                     className="inline-flex items-center gap-1.5 text-sm font-medium text-white hover:text-accent-bright transition-colors"
                   >
-                    {p.status === 'In Progress' ? 'Follow progress' : 'Live demo'}
+                    {p.status === 'In Progress' ? 'Follow progress' : 'live Demo'}
                     <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </a>
                   <span className="w-px h-4 bg-white/10" />
                   <a
-                    href="#"
+                    href={p.github}
                     className="inline-flex items-center gap-1.5 text-sm font-medium text-muted hover:text-white transition-colors"
                   >
                     <Github className="w-4 h-4" />
