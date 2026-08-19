@@ -19,7 +19,7 @@ const PROJECTS = [
     accent: 'from-sky-500/20 to-cyan-500/10',
     status: 'Completed',
     link: 'https://weather-dashboard-peach-seven.vercel.app/',   // 👈 live deployed URL
-  github: 'https://github.com/tumhara-Amansingh-ez/weather-dashboard', // 👈 repo URL
+  github: 'https://github.com/Amansingh-ez/weather-dashboard', // 👈 repo URL
   },
   {
     title: 'Chloe — AI Voice Assistant',
